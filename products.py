@@ -6,7 +6,7 @@ while True:
     if name=='q':
         break
     price=input('請輸入商品價格:')
-    p=[name,price] #小清單 222222
+    p=[name,price] #小清單 
     products.append(p)
     
     
