@@ -6,13 +6,15 @@ while True:
     if name=='q':
         break
     price=input('請輸入商品價格:')
-    p=[name,price] #小清單 
+    p=[name,price] #小清單 sss
     products.append(p)
     
     
 print(products)
 
-products[0][0]
+for product in products:
+    print(product[0],'的價格是',product[1])
+
 
 
 
