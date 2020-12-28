@@ -19,7 +19,7 @@ for product in products:
 with open('products.csv','w',encoding='utf-8') as f:
     f.write('商品,價格\n')
     for product in products:
-        f.write( str(p[0]) + ',' +str(p[1])+ '\n' )
+        f.write( (p[0]) + ',' +str(p[1])+ '\n' )
 
 
 
