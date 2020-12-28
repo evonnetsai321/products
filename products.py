@@ -1,7 +1,7 @@
-#檢查檔案存在
 import os
+#讀取檔案
 products=[]
-if os.path.isfile('products.csv'):
+if os.path.isfile('products.csv'):#檢查檔案存在
     print('yeah')
     with open('products.csv','r',encoding='utf-8')as f:
         for line in f:
