@@ -17,6 +17,6 @@ for product in products:
 
 with open('products.txt','w') as f:
     for product in products:
-        f.write( p[0] + ',' +p[1])+ '\n' )
+        f.write( p[0] + ',' +p[1]+ '\n' )
 
 
